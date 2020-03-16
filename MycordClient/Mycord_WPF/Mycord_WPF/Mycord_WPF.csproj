@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>gamepad-solid.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="resources\fonts\fontawesome-webfont.ttf" />
+    <None Remove="resources\fonts\Maplestory Bold.ttf" />
+    <None Remove="resources\fonts\Maplestory Light.ttf" />
+    <None Remove="resources\images\Discord-gray.png" />
+    <None Remove="resources\images\Discord-white.png" />
+    <None Remove="resources\images\gamepad-solid.ico" />
+    <None Remove="resources\images\gamepad-solid.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PropertyChanged.Fody" Version="3.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MyCordLib">
+      <HintPath>bin\Debug\netcoreapp3.1\MyCordLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="resources\fonts\fontawesome-webfont.ttf" />
+    <Resource Include="resources\fonts\Maplestory Bold.ttf" />
+    <Resource Include="resources\fonts\Maplestory Light.ttf" />
+    <Resource Include="resources\images\Discord-gray.png" />
+    <Resource Include="resources\images\Discord-white.png" />
+    <Resource Include="resources\images\gamepad-solid.ico" />
+    <Resource Include="resources\images\gamepad-solid.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="pages\Page\ChatPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="pages\Page\ChatPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="styles\ButtonsDictionary.xaml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Update="styles\ColorsDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="styles\TextsDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

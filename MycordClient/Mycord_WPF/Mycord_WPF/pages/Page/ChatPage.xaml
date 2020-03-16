@@ -1,0 +1,120 @@
+﻿<local:BasePage
+    x:Class="Mycord_WPF.ChatPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Mycord_WPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="900"
+      Title="ChatPage">
+    <Border>
+        <Grid Background="{StaticResource BackgroundDiscordBlackBrush}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Background="{StaticResource BackgroundDiscordBlack2Brush}">
+                <StackPanel HorizontalAlignment="Left" Margin="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="30"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding RoomName}" FontFamily="{StaticResource MapleBold}" Foreground="{StaticResource ForegroundDiscordMainBrush}" FontSize="30" Margin="10"/>
+                        <Button Grid.Column="1" Content=" % " Command="{Binding ExitCommand}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </Grid>
+                    
+                    <ScrollViewer HorizontalScrollBarVisibility="Hidden">
+                        <ItemsControl ItemsSource="{Binding UserList}" Background="{StaticResource BackgroundDiscordBlack2Brush}" BorderThickness="0" Focusable="False">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Padding="10 0 10 0" Margin="0 10 0 10" x:Name="border" Background="{StaticResource BackgroundDiscordBlack2Brush}" >
+                                        <Grid>
+                                            <Border Grid.Column="1" Padding="10 0 0 0">
+                                                <TextBlock TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="20" FontFamily="{StaticResource MapleBold}" Foreground="{StaticResource ForegroundDiscordMainBrush}"/>
+                                            </Border>
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                    
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <ScrollViewer local:AutoScrollProperty.AlwaysScrollToEnd="True" Background="{StaticResource BackgroundDiscordBlack2Brush}" Focusable="False">
+                    <ItemsControl ItemsSource="{Binding ChatList}" Background="{StaticResource BackgroundDiscordBlackBrush}" BorderThickness="0" Focusable="False">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border Padding="10 0 10 0" Margin="0 10 0 10" x:Name="border" Background="{StaticResource BackgroundDiscordBlackBrush}" >
+                                    <Border.Triggers>
+                                        <EventTrigger RoutedEvent="MouseEnter">
+                                            <BeginStoryboard>
+                                                <Storyboard Storyboard.TargetName="border" Storyboard.TargetProperty="Background.Color">
+                                                    <ColorAnimation To="{StaticResource BackgroundDiscordVeryBlack}" Duration="0:0:0.2"/>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </EventTrigger>
+                                        <EventTrigger RoutedEvent="MouseLeave">
+                                            <BeginStoryboard>
+                                                <Storyboard Storyboard.TargetName="border" Storyboard.TargetProperty="Background.Color">
+                                                    <ColorAnimation To="{StaticResource BackgroundDiscordBlack}" Duration="0:0:0.2"/>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </EventTrigger>
+                                    </Border.Triggers>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="50"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Border CornerRadius="50" Background="{StaticResource BackgroundDiscordBlueBrush}" Height="50" VerticalAlignment="Top">
+                                            <TextBlock Text="Null" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="23" FontFamily="{StaticResource MapleBold}"/>
+                                        </Border>
+                                        <Border Grid.Column="1" Padding="10 0 0 0">
+                                            <StackPanel>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="22" FontFamily="{StaticResource MapleLight}" Foreground="{StaticResource ForegroundDiscordMainBrush}"/>
+                                                    <TextBlock Margin="10,0,0,0" x:Name="TimeText" Text="{Binding SendTime, Converter={local:TimeFormatConverter}}" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="19" FontFamily="{StaticResource MapleLight}" Foreground="{StaticResource ForegroundDiscordSecondMainBrush}"/>
+                                                </StackPanel>
+                                                <TextBlock TextWrapping="Wrap" Text="{Binding Message}" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="20" FontFamily="{StaticResource MapleLight}" Foreground="{StaticResource ForegroundDiscordSecondMainBrush}" Margin="5,0,0,0"/>
+                                            </StackPanel>
+                                        </Border>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+
+
+                <Grid Grid.Row="1" MinHeight="60" VerticalAlignment="Bottom">
+                    <Border Background="{StaticResource BackgroundDiscordLittleBlackBrush}"
+                            Padding="8" Margin="20 0 20 15"
+                            CornerRadius="10">
+                        <TextBox x:Name="SendBox" 
+                        Style="{StaticResource TextBoxPlaceHolder}" 
+                                 Tag="메세지 보내기"
+                                 VerticalScrollBarVisibility="Auto"                                 
+                                 VerticalContentAlignment="Center" Padding="3"
+                                 FontFamily="{StaticResource MapleLight}"
+                                 Foreground="{StaticResource ForegroundDiscordMainBrush}"
+                                 Background="Transparent" BorderThickness="0" FontSize="18"
+                             Text="{Binding TextBoxText, UpdateSourceTrigger=PropertyChanged}">
+                            <TextBox.InputBindings>
+                                <KeyBinding Command="{Binding MessageSendCommand}" CommandParameter="{Binding Text,ElementName=SendBox}" Key="Return"/>
+                            </TextBox.InputBindings>
+                        </TextBox>
+                    </Border>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Border>
+
+</local:BasePage>

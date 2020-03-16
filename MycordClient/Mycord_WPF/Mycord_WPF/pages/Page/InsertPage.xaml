@@ -1,0 +1,39 @@
+﻿<local:BasePage x:Class="Mycord_WPF.InsertPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Mycord_WPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="InsertPage">
+
+    <Grid>
+        <Border VerticalAlignment="Center" HorizontalAlignment="Center" Background="Transparent">
+            <TextBlock x:Name="HelperText" FontFamily="{StaticResource MapleBold}" Foreground="{StaticResource ForegroundDiscordMainBrush}" FontSize="20" Opacity="1">
+                <TextBlock.Triggers>
+                    <EventTrigger RoutedEvent="Loaded">
+                        <BeginStoryboard>
+                            <Storyboard x:Name="HelperTextAnimation">
+                                <DoubleAnimation Storyboard.TargetName="HelperText" Storyboard.TargetProperty="Opacity" To="1" From="0.5" Duration="0:0:2"  AutoReverse="True" RepeatBehavior="20"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </TextBlock.Triggers>
+                
+                <Span Foreground="Green" FontFamily="{StaticResource FontAwesome}"  FontSize="40">
+                    &#xf0a5;
+                </Span>
+                에 있는 
+                <Span Foreground="Green" FontFamily="{StaticResource FontAwesome}" FontSize="40">
+                    &#xf067;
+                </Span>
+                와
+                <Span Foreground="Green" FontFamily="{StaticResource FontAwesome}" FontSize="40">
+                    &#xf002;
+                </Span>
+                를 사용하여 방을 만들거나 찾아서 채팅을 시작해보세요.
+            </TextBlock>
+        </Border>
+    </Grid>
+</local:BasePage>

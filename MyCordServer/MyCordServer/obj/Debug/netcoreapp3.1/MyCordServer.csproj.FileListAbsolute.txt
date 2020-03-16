@@ -1,0 +1,14 @@
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordServer\obj\Debug\netcoreapp3.1\MyCordServer.csprojAssemblyReference.cache
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordServer\obj\Debug\netcoreapp3.1\MyCordServer.AssemblyInfoInputs.cache
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordServer\obj\Debug\netcoreapp3.1\MyCordServer.AssemblyInfo.cs
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordServer\bin\Debug\netcoreapp3.1\MyCordServer.exe
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordServer\bin\Debug\netcoreapp3.1\MyCordServer.deps.json
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordServer\bin\Debug\netcoreapp3.1\MyCordServer.runtimeconfig.json
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordServer\bin\Debug\netcoreapp3.1\MyCordServer.runtimeconfig.dev.json
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordServer\bin\Debug\netcoreapp3.1\MyCordServer.dll
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordServer\bin\Debug\netcoreapp3.1\MyCordServer.pdb
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordServer\bin\Debug\netcoreapp3.1\MyCordLib.dll
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordServer\bin\Debug\netcoreapp3.1\MyCordLib.pdb
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordServer\obj\Debug\netcoreapp3.1\MyCordServer.csproj.CopyComplete
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordServer\obj\Debug\netcoreapp3.1\MyCordServer.dll
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordServer\obj\Debug\netcoreapp3.1\MyCordServer.pdb

@@ -1,0 +1,8 @@
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordLib\obj\Debug\netstandard2.0\MyCordLib.AssemblyInfoInputs.cache
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordLib\obj\Debug\netstandard2.0\MyCordLib.AssemblyInfo.cs
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordLib\bin\Debug\netstandard2.0\MyCordLib.deps.json
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordLib\bin\Debug\netstandard2.0\MyCordLib.dll
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordLib\bin\Debug\netstandard2.0\MyCordLib.pdb
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordLib\obj\Debug\netstandard2.0\MyCordLib.dll
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordLib\obj\Debug\netstandard2.0\MyCordLib.pdb
+C:\Users\dldbw\Desktop\Mycord\MycordServer\MyCordLib\obj\Debug\netstandard2.0\MyCordLib.csprojAssemblyReference.cache

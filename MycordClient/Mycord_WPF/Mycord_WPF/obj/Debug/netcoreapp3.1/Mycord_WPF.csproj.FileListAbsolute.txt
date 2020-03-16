@@ -1,0 +1,124 @@
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF_MarkupCompile.cache
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF_MarkupCompile.lref
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.csprojAssemblyReference.cache
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.exe
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.deps.json
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.runtimeconfig.json
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.runtimeconfig.dev.json
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.dll
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.pdb
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\MyCordLib.dll
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\MyCordLib.pdb
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\ButtonsDictionary.baml
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\ColorsDictionary.baml
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\FontsDictionary.baml
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\TextsDictionary.baml
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.g.resources
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.AssemblyInfoInputs.cache
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.AssemblyInfo.cs
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.csproj.Fody.CopyLocal.cache
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.csproj.CopyComplete
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.dll
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.pdb
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\ChatPage.g.cs
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\LoginPage.g.cs
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\PageHost.g.cs
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\ChatPage.baml
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\LoginPage.baml
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\PageHost.baml
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\ScollDictionary.baml
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\InsertPage.g.cs
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\InsertPage.baml
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\UserControl\SideButtonControl.g.cs
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\UserControl\SideButtonControl.baml
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\CustomMessageBox.g.cs
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\CustomMessageBox.baml
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\CustomMessageBox2.g.cs
+C:\Users\dldbw\Desktop\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\CustomMessageBox2.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.exe
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.deps.json
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.runtimeconfig.json
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.runtimeconfig.dev.json
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.dll
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.pdb
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\MyCordLib.pdb
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.csprojAssemblyReference.cache
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\CustomMessageBox.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\CustomMessageBox2.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\ChatPage.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\InsertPage.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\LoginPage.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\PageHost.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\UserControl\SideButtonControl.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF_MarkupCompile.cache
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF_MarkupCompile.lref
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\CustomMessageBox.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\CustomMessageBox2.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\ChatPage.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\InsertPage.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\LoginPage.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\PageHost.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\UserControl\SideButtonControl.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\ButtonsDictionary.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\ColorsDictionary.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\FontsDictionary.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\ScollDictionary.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\TextsDictionary.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.g.resources
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.AssemblyInfoInputs.cache
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.AssemblyInfo.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.csproj.Fody.CopyLocal.cache
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.csproj.CopyComplete
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.dll
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.pdb
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.exe
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.deps.json
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.runtimeconfig.json
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.runtimeconfig.dev.json
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.dll
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\Mycord_WPF.pdb
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\bin\Debug\netcoreapp3.1\MyCordLib.pdb
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.csprojAssemblyReference.cache
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\CustomMessageBox.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\CustomMessageBox2.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\ChatPage.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\InsertPage.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\LoginPage.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\PageHost.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\UserControl\SideButtonControl.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF_MarkupCompile.cache
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF_MarkupCompile.lref
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\CustomMessageBox.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\CustomMessageBox2.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\ChatPage.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\InsertPage.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\LoginPage.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\Page\PageHost.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\pages\UserControl\SideButtonControl.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\ButtonsDictionary.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\ColorsDictionary.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\FontsDictionary.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\ScollDictionary.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\styles\TextsDictionary.baml
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.g.resources
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.AssemblyInfoInputs.cache
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.AssemblyInfo.cs
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.csproj.Fody.CopyLocal.cache
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.csproj.CopyComplete
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.dll
+C:\Users\dldbw\Desktop\Mycord 3.15 완성\Mycord 3.15 완성\MycordClient\Mycord_WPF\Mycord_WPF\obj\Debug\netcoreapp3.1\Mycord_WPF.pdb

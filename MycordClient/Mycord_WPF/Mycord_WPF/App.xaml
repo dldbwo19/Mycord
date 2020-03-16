@@ -1,0 +1,17 @@
+﻿<Application x:Class="Mycord_WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Mycord_WPF"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="styles/ColorsDictionary.xaml"/>
+                <ResourceDictionary Source="styles/TextsDictionary.xaml"/>
+                <ResourceDictionary Source="styles/FontsDictionary.xaml"/>
+                <ResourceDictionary Source="styles/ButtonsDictionary.xaml"/>
+                <ResourceDictionary Source="styles/ScollDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

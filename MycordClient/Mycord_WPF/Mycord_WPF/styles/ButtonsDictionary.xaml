@@ -1,0 +1,324 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Mycord_WPF">
+
+    <!--#region MergedDictionaries -->
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="FontsDictionary.xaml"/>
+        <ResourceDictionary Source="ColorsDictionary.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    <!--#endregion-->
+
+    <!--#region 컨텐츠만 있는 버튼 "Hoverless" -->
+    <Style TargetType="{x:Type Button}" x:Key="Hoverless">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0"/>
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Padding="{TemplateBinding Padding}" Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--#endregion-->
+    
+    <!--#region Hoverless + 이벤트 TextButton -->
+    <Style TargetType="{x:Type Button}" x:Key="TextButton">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0"/>
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Padding="{TemplateBinding Padding}" Background="{TemplateBinding Background}">
+                        <TextBlock x:Name="ButtonText" Text="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="{TemplateBinding Foreground}"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="ButtonText" Property="Foreground" Value="#3691CD"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--#endregion-->
+
+    <!--#region윈도우 버튼 "WindowIconButton"-->
+    <Style TargetType="{x:Type Button}" x:Key="WindowIconButton" BasedOn="{StaticResource BaseStyle}">
+        <Setter Property="WindowChrome.IsHitTestVisibleInChrome" Value="True"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Padding" Value="5"/>
+        <Setter Property="Foreground" Value="{StaticResource ForegroundDiscordMainBrush}"/>
+
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Padding="{TemplateBinding Padding}" Background="{TemplateBinding Background}">
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="{TemplateBinding Content}" FontFamily="{StaticResource FontAwesome}"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="Black"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <!--#endregion-->
+
+    <!--#region 윈도우 닫기 버튼 "WindowCloseButton"-->
+    <Style TargetType="{x:Type Button}" x:Key="WindowCloseButton" BasedOn="{StaticResource BaseStyle}">
+        <Setter Property="WindowChrome.IsHitTestVisibleInChrome" Value="True"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Padding" Value="5"/>
+        <Setter Property="Foreground" Value="{StaticResource ForegroundDiscordMainBrush}"/>
+
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Padding="{TemplateBinding Padding}" Background="{TemplateBinding Background}">
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="{TemplateBinding Content}" FontFamily="{StaticResource MapleBold}"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="Red"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <!--#endregion-->
+
+    <!--#region Resize 이벤트 LoginButton -->
+    <Style TargetType="{x:Type Button}" x:Key="DiscordBlueButton" BasedOn="{StaticResource BaseStyle}">
+        <Setter Property="Background" Value="{StaticResource BackgroundDiscordBlueBrush}"/>
+        <Setter Property="Foreground" Value="{StaticResource ForegroundDiscordMainBrush}"/>
+        <Setter Property="FontFamily" Value="{StaticResource MapleBold}"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Padding" Value="40 10"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="local:IsRunningProperty.Value" Value="False" />
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type ButtonBase}">
+                    <Border x:Name="border"
+                            CornerRadius="5" BorderThickness="{TemplateBinding BorderThickness}"
+                            Background="{TemplateBinding Background}"
+                            SnapsToDevicePixels="True">
+                        <Grid>
+                            <TextBlock Text="{TemplateBinding Content}"
+                                   Visibility="{TemplateBinding local:IsRunningProperty.Value, Converter={local:BooleanToVisibilityConverter}}"
+                                   Focusable="False"
+                                   FontFamily="{TemplateBinding FontFamily}"
+                                   HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                   VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                   Margin="{TemplateBinding Padding}"
+                                   SnapsToDevicePixels="True"/>
+
+                            <TextBlock Style="{StaticResource ResizeText}"
+                                HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                Visibility="{TemplateBinding local:IsRunningProperty.Value, Converter={local:BooleanToVisibilityConverter}, ConverterParameter=True}"/>
+                        </Grid>
+
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <EventTrigger RoutedEvent="MouseEnter">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ColorAnimation To="#3691CD" Duration="0:0:0.1" Storyboard.TargetName="border" Storyboard.TargetProperty="Background.Color"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                        <EventTrigger RoutedEvent="MouseLeave">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ColorAnimation To="{StaticResource BackgroundDiscordBlue}" Duration="0:0:0.1" Storyboard.TargetName="border" Storyboard.TargetProperty="Background.Color"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--#endregion-->
+
+    <Style TargetType="{x:Type Button}" x:Key="SideButton" BasedOn="{StaticResource BaseStyle}">
+        <Setter Property="Background" Value="{StaticResource BackgroundDiscordBlackBrush}"/>
+        <Setter Property="Foreground" Value="{StaticResource ForegroundDiscordMainBrush}"/>
+        <Setter Property="Padding" Value="11"/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type ButtonBase}">
+                    <Border x:Name="border"
+                                CornerRadius="50" BorderThickness="{TemplateBinding BorderThickness}"
+                                Background="{TemplateBinding Background}"
+                                SnapsToDevicePixels="True">
+                        <TextBlock Text="{TemplateBinding Content}"
+                                       Focusable="False"
+                                       FontFamily="{TemplateBinding FontFamily}"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"
+                                       Margin="11"
+                                       SnapsToDevicePixels="True"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation To="{StaticResource BackgroundDiscordMoreBlue}" Duration="0:0:0.2" Storyboard.TargetName="border" Storyboard.TargetProperty="Background.Color"/>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="border"
+                                                   Storyboard.TargetProperty="CornerRadius">
+                                            <ObjectAnimationUsingKeyFrames.KeyFrames>
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="50" BottomRight="50" TopLeft="50" TopRight="50" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.025">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="45" BottomRight="45" TopLeft="45" TopRight="45" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.05">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="40" BottomRight="40" TopLeft="40" TopRight="40" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.075">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="35" BottomRight="35" TopLeft="35" TopRight="35" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="30" BottomRight="30" TopLeft="30" TopRight="30" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.125">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="25" BottomRight="25" TopLeft="25" TopRight="25" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.15">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="20" BottomRight="20" TopLeft="20" TopRight="20" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.175">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="15" BottomRight="15" TopLeft="15" TopRight="15" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="10" BottomRight="10" TopLeft="10" TopRight="10" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames.KeyFrames>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+
+                            <Trigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation To="{StaticResource BackgroundDiscordBlack}" Duration="0:0:0.2" Storyboard.TargetName="border" Storyboard.TargetProperty="Background.Color"/>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="border"
+                                                   Storyboard.TargetProperty="CornerRadius"
+                                                   >
+                                            <ObjectAnimationUsingKeyFrames.KeyFrames>
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="10" BottomRight="10" TopLeft="10" TopRight="10" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.025">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="15" BottomRight="15" TopLeft="15" TopRight="15" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.05">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="20" BottomRight="20" TopLeft="20" TopRight="20" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.75">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="25" BottomRight="25" TopLeft="25" TopRight="25" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="30" BottomRight="30" TopLeft="30" TopRight="30" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.125">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="35" BottomRight="35" TopLeft="35" TopRight="35" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.15">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="40" BottomRight="40" TopLeft="40" TopRight="40" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.175">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="45" BottomRight="45" TopLeft="45" TopRight="45" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <CornerRadius BottomLeft="50" BottomRight="50" TopLeft="50" TopRight="50" />
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames.KeyFrames>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,44 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Mycord_WPF">
+    
+    <Color x:Key="BackgroundLight">#efefef</Color>
+    <SolidColorBrush x:Key="BackgroundLightBrush" Color="{StaticResource BackgroundLight}"/>
+
+    <Color x:Key="BackgroundVeryLight">#fafafa</Color>
+    <SolidColorBrush x:Key="BackgroundVeryLightBrush" Color="{StaticResource BackgroundVeryLight}"/>
+
+    <Color x:Key="BackgroundDiscordVeryBlack">#202225</Color>
+    <SolidColorBrush x:Key="BackgroundDiscordVeryBlackBrush" Color="{StaticResource BackgroundDiscordVeryBlack}"/>
+    
+    <Color x:Key="BackgroundDiscordBlack">#36393f</Color>
+    <SolidColorBrush x:Key="BackgroundDiscordBlackBrush" Color="{StaticResource BackgroundDiscordBlack}"/>
+
+    <Color x:Key="BackgroundDiscordBlack2">#3c3f45</Color>
+    <SolidColorBrush x:Key="BackgroundDiscordBlack2Brush" Color="{StaticResource BackgroundDiscordBlack2}"/>
+
+    <Color x:Key="BackgroundDiscordLittleBlack">#4F545C</Color>
+    <SolidColorBrush x:Key="BackgroundDiscordLittleBlackBrush" Color="{StaticResource BackgroundDiscordLittleBlack}"/>
+
+    <Color x:Key="BackgroundDiscordBlue">#95CFF4</Color>
+    <SolidColorBrush x:Key="BackgroundDiscordBlueBrush" Color="{StaticResource BackgroundDiscordBlue}"/>
+
+    <Color x:Key="BackgroundDiscordMoreBlue">#3691CD</Color>
+    <SolidColorBrush x:Key="BackgroundDiscordMoreBlueBrush" Color="{StaticResource BackgroundDiscordMoreBlue}"/>
+
+    <Color x:Key="ForegroundMain">#686868</Color>
+    <SolidColorBrush x:Key="ForegroundMainBrush" Color="{StaticResource ForegroundMain}"/>
+
+    <Color x:Key="ForegroundDark">#000000</Color>
+    <SolidColorBrush x:Key="ForegroundDarkBrush" Color="{StaticResource ForegroundDark}"/>
+
+    <Color x:Key="ForegroundLight">#ffffff</Color>
+    <SolidColorBrush x:Key="ForegroundLightBrush" Color="{StaticResource ForegroundLight}"/>
+
+    <Color x:Key="ForegroundDiscordMain">#EAEAEB</Color>
+    <SolidColorBrush x:Key="ForegroundDiscordMainBrush" Color="{StaticResource ForegroundDiscordMain}"/>
+
+    <Color x:Key="ForegroundDiscordSecondMain">#B9BBBE</Color>
+    <SolidColorBrush x:Key="ForegroundDiscordSecondMainBrush" Color="{StaticResource ForegroundDiscordSecondMain}"/>
+
+</ResourceDictionary>

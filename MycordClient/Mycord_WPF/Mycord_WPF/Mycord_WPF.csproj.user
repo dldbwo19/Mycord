@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="CustomMessageBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomMessageBox2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\Page\InsertPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\Page\LoginPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pages\Page\PageHost.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="CustomMessageBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomMessageBox2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\Page\ChatPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\Page\InsertPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\Page\LoginPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\Page\PageHost.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\UserControl\SideButtonControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="styles\ButtonsDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="styles\ColorsDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="styles\ScollDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="styles\TextsDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="styles\FontsDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

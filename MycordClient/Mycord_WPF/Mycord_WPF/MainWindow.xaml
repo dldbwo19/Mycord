@@ -1,0 +1,101 @@
+﻿<Window x:Class="Mycord_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mycord_WPF"
+        WindowStyle="None"
+        mc:Ignorable="d"
+        x:Name="AppWindow"
+        WindowStartupLocation="CenterScreen"
+        Icon="resources/images/gamepad-solid.ico"
+        MinWidth="{Binding WindowMinimumWidth}"
+        MinHeight="{Binding WindowMinimumHeight}"
+        Title="MainWindow" Height="600" Width="900">
+
+    <WindowChrome.WindowChrome>
+        <WindowChrome 
+            ResizeBorderThickness="{Binding ResizeBorderThickness}"
+            CaptionHeight="{Binding TitleHeight}"/>
+    </WindowChrome.WindowChrome>
+    <Border Padding="{Binding OuterMarginSizeThickness, FallbackValue = 0}">
+
+        <Grid>
+
+            <!-- MainBorder -->
+            <Border CornerRadius="{Binding WindowCornerRadius, FallbackValue=0}"
+                                        Background="{StaticResource BackgroundDiscordLittleBlackBrush}">
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="1" Opacity="0.2"/>
+                </Border.Effect>
+            </Border>
+
+            <Grid>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition x:Name="TitleBarGrid" Height="{Binding TitleHeightGridLength, FallbackValue=22}"/>
+                    <RowDefinition x:Name="MainContentGrid" Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Panel.ZIndex="1" Background="{StaticResource BackgroundDiscordVeryBlackBrush}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition x:Name="TitleGrid" Width="Auto"/>
+                        <ColumnDefinition x:Name="BlankGrid" Width="*"/>
+                        <ColumnDefinition x:Name="WindowsButtonGrid" Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Viewbox Grid.Column="0">
+                        <Image Source="/resources/images/Discord-gray.png" Margin="40" VerticalAlignment="Center"/>
+                    </Viewbox>
+
+                    <StackPanel Grid.Column="2" Orientation="Horizontal">
+                        <Button x:Name="MinimizeButton" Style="{StaticResource WindowIconButton}"
+                                                    Command="{Binding MinimizeCommand}"
+                                                    Content="&#xf2d1;" FontFamily="{StaticResource FontAwesome}"/>
+                        <Button x:Name="MaximizeButton" Style="{StaticResource WindowIconButton}"
+                                                    Command="{Binding MaximizeCommand}"
+                                                    Content="&#xf2d2;" FontFamily="{StaticResource FontAwesome}"/>
+                        <Button x:Name="CloseButton" Style="{StaticResource WindowCloseButton}"
+                                                    Command="{Binding CloseCommand}"
+                                                    Content=" X " FontFamily="{StaticResource MapleBold}"/>
+                    </StackPanel>
+
+                </Grid>
+                <Grid Grid.Row="1" Background="{StaticResource BackgroundDiscordVeryBlackBrush}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0" Background="{StaticResource BackgroundDiscordVeryBlackBrush}">
+
+                        <ContentPresenter Content="{Binding SideMenu, Converter={local:PageValueConverter}}"/>
+
+                        <!-- 보류
+                                                <Border Grid.Row="0" CornerRadius="40" VerticalAlignment="Center" HorizontalAlignment="Center" Background="{StaticResource BackgroundDiscordBlueBrush}" Margin="0 0 0 10">
+                                                    <TextBlock FontSize="27" Text="&#xf11b;" FontFamily="{StaticResource FontAwesome}" Foreground="{StaticResource ForegroundDiscordMainBrush}" Padding="11"/>
+                                                </Border>
+
+                                                
+                                                
+
+                                                <TextBlock Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"
+                                                           Text="ㅡㅡㅡㅡ" Foreground="{StaticResource BackgroundDiscordBlackBrush}" 
+                                                           FontFamily="{StaticResource MapleBold}"/>
+                                                <StackPanel Grid.Row="2">
+                                                    <Button Style="{StaticResource SideButton}" 
+                                                            FontSize="27" Content="&#xf067;" FontFamily="{StaticResource FontAwesome}"/>
+                                                    <Button Style="{StaticResource SideButton}" 
+                                                            FontSize="27" Content="&#xf002;" FontFamily="{StaticResource FontAwesome}"/>
+                                                </StackPanel>
+-->
+
+
+                    </Border>
+                    <Border Grid.Column="1" Background="{StaticResource BackgroundDiscordVeryBlackBrush}">
+                        <Frame Content="{Binding Path=ContentPage, Converter={local:PageValueConverter}}" local:FrameHistoryProperty.Value="True"/>
+                    </Border>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

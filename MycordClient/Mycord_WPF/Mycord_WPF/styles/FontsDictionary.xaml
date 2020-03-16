@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Mycord_WPF">
+
+    <FontFamily x:Key="MapleBold">pack://application;,,,/resources/fonts/#메이플스토리 Bold</FontFamily>
+    <FontFamily x:Key="MapleLight">pack://application;,,,/resources/fonts/#메이플스토리 Light</FontFamily>
+    <FontFamily x:Key="FontAwesome">pack://application;,,,/resources/fonts/#FontAwesome</FontFamily>
+    <FontFamily x:Key="DiscordHeavy">pack://application;,,,/resources/fonts/#UniSansHeavyCAPS</FontFamily>
+
+    <Style TargetType="{x:Type Control}" x:Key="BaseStyle">
+        <Setter Property="FontFamily" Value="{StaticResource MapleLight}" />
+    </Style>
+    <Style TargetType="{x:Type TextBlock}" x:Key="BaseTextBlockStyle">
+        <Setter Property="FontFamily" Value="{StaticResource MapleLight}" />
+    </Style>
+
+    <Style TargetType="{x:Type Button}" BasedOn="{StaticResource BaseStyle}"/>
+    <Style TargetType="{x:Type Label}" BasedOn="{StaticResource BaseStyle}"/>
+    <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource BaseTextBlockStyle}"/>
+    <Style TargetType="{x:Type TextBox}" BasedOn="{StaticResource BaseStyle}"/>
+
+
+</ResourceDictionary>
